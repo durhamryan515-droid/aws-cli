@@ -1,7 +1,7 @@
 name: Run tests
 
 on:
-  push:
+  push:        run("python scripts/completed/install-dev-deps")
   pull_request:
     branches-ignore: [ master ]
 
